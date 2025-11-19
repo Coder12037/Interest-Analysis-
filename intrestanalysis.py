@@ -73,7 +73,7 @@ if typeofinterest == "compounding":
             print(f"This is a beneficial program with a gain of ${gain:.2f}")
     #------Annual Calculations----#
     elif section == "annually" or "Annual":
-        print("\nDaily compounding applies interest every day.")
+        print("\Annual compounding applies interest every day.")
 
         amount_of_terms = 1
         nvalue = term * amount_of_terms
