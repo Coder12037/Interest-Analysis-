@@ -78,7 +78,7 @@ if typeofinterest == "compounding":
         amount_of_terms = 1
         nvalue = term * amount_of_terms
 
-        total_amount = investment * ((1 + interest_daily) ** nvalue)
+        total_amount = investment * ((1 + interest_annually) ** nvalue)
         print(f"\nThe total amount of interest is: ${total_amount:.2f}")
 
         gain = total_amount - investment
@@ -121,6 +121,7 @@ if typeofinterest == "simple":
 #Hope you enjoyed the code! More types of such calculators and other programs are coming soon #
 #Please do give me any feedback and send me feedback to my email: pavan00909@gmail.com #
 # Do give me ideas for the next one if you have any other ideas on what you want me to create# 
+
 
 
 
